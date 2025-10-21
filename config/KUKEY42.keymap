@@ -82,19 +82,19 @@
 
         NUM {
             bindings = <
-&kp NUMBER_1            &kp NUMBER_2    &kp NUMBER_3      &kp NUMBER_4  &kp N5                                    &kp NUMBER_6  &kp N7           &kp N8           &kp N9           &kp N0
-&kp LEFT                &kp UP_ARROW    &kp RIGHT         &kp LG(X)     &kp LANG1      &trans         &trans      &kp HOME      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &mt RIGHT_SHIFT SINGLE_QUOTE
-&mt LEFT_SHIFT KP_PLUS  &kp DOWN_ARROW  &kp LEFT_BRACKET  &kp LC(V)     &kp LC(LANG2)  &kp LC(Z)      &kp DELETE  &kp KP_N0     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT
-&trans                  &kp LEFT_ALT    &trans            &trans        &trans         &trans         &trans      &trans                                                           &kp ESCAPE
+&kp NUMBER_1            &kp NUMBER_2    &kp NUMBER_3      &kp NUMBER_4  &kp N5                                   &kp NUMBER_6  &kp N7            &kp N8     &kp N9      &kp N0
+&kp LEFT                &kp UP_ARROW    &kp RIGHT         &kp LG(X)     &kp LANG1      &trans         &kp MINUS  &kp HOME      &kp RS(NUMBER_1)  &kp MINUS  &kp TILDE   &kp QMARK
+&mt LEFT_SHIFT KP_PLUS  &kp DOWN_ARROW  &kp LEFT_BRACKET  &kp LC(V)     &kp LC(LANG2)  &kp LC(Z)      &kp EQUAL  &kp END       &kp COLON         &kp COMMA  &kp PERIOD  &kp KP_DOT
+&trans                  &kp LEFT_ALT    &trans            &trans        &trans         &trans         &trans     &trans                                                 &kp ESCAPE
             >;
         };
 
         ARROW {
             bindings = <
-&kp AMPERSAND        &kp AT_SIGN       &kp RIGHT_BRACKET  &kp BACKSLASH  &kp LS(INTERNATIONAL_3)                                 &kp UNDER      &kp LC(KP_PLUS)  &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp PLUS
-&kp MINUS            &kp LEFT_BRACKET  &kp EXCLAMATION    &kp QUESTION   &kp INT_YEN               &trans                &to 4   &kp PAGE_UP    &kp LC(MINUS)    &kp UP_ARROW    &kp CARET             &trans
-&mt LEFT_SHIFT HASH  &kp PERCENT       &kp SINGLE_QUOTE   &kp SEMICOLON  &kp EQUAL                 &trans                &trans  &kp PAGE_DOWN  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW       &kp LS(INTERNATIONAL_1)
-&trans               &trans            &trans             &trans         &mt LEFT_SHIFT LS(SPACE)  &lt 1 LANGUAGE_2      &trans  &trans                                                                &trans
+&kp LS(NUMBER_1)     &kp AT_SIGN     &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)                                                 &kp RS(NUMBER_6)  &kp RS(N7)        &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RS(N0)
+&kp LEFT             &kp UP_ARROW    &kp RIGHT         &kp QUESTION      &kp LANGUAGE_1            &mkp MB1              &kp MINUS  &kp HOME          &kp RS(NUMBER_1)  &kp MINUS     &kp TILDE             &kp QMARK
+&mt LEFT_SHIFT HASH  &kp DOWN_ARROW  &kp SINGLE_QUOTE  &kp SEMICOLON     &kp LANGUAGE_2            &mkp MB2              &kp EQUAL  &kp END           &trans            &trans        &trans                &kp RS(SLASH)
+&trans               &trans          &trans            &trans            &mt LEFT_SHIFT LS(SPACE)  &lt 1 LANGUAGE_2      &trans     &trans                                                                  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(KP_MINUS) LC(KP_PLUS)>;
